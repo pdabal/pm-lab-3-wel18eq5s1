@@ -1,6 +1,5 @@
 #include <Arduino.h>
 #include <stdio.h>
-
 char rxBuff[32];
 int bytesNo = 0;
 char paramStr[16];
@@ -8,15 +7,13 @@ int paramVal = 0;
 
 void setup() {
   Serial.begin(9600);
-  Serial.setTimeout(4000);
+Serial.setTimeout(4000);
 
 pinMode(LED_BUILTIN, OUTPUT);
 }
 void loop() {
-  bytesNo = Serial.readBytesUntil('\r', rxBuff, sizeof(rxBuff) - 1);
-
-  sscanf(rxBuff, "%s %d", paramStr, &paramVal);
-
+bytesNo = Serial.readBytesUntil('\r', rxBuff, sizeof(rxBuff) - 1);
+sscanf(rxBuff, "%s %d", paramStr, &paramVal);
 if (bytesNo) { 
     Serial.print("Wykonuje... ");
     if (!strcmp(paramStr, "led")) {
@@ -32,6 +29,12 @@ if (bytesNo) {
         digitalWrite(LED_BUILTIN, LOW); delay(500);
       }
       Serial.println("OK!");
+      }else if (!strcmp(paramStr, "Dida")){
+        if(digitalRead(LED_BUILTIN == HIGH)){
+          Serial.println("Dioda jet wlaczona");
+        } else {
+          Serial.println("Dioda jest wylaczona");
+        }
     } else {
       Serial.println("Blad!");
     }
@@ -40,7 +43,7 @@ for (int i = 0; i < Serial.available(); i++) {
     Serial.read();
   }
 
-for (int i = 0; i < sizeof(rxBuff); i++) {
+  for (int i = 0; i < sizeof(rxBuff); i++) {
     rxBuff[i] = 0;
   }
 }
