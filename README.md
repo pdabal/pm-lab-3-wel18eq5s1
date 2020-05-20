@@ -25,4 +25,4 @@ Możemy zastąpić unsigned int zmienną unsigned long long co zwiększy nam ilo
 
 W jaki sposób można zwiększyć liczbę obsługiwanych poleceń oraz liczbę obsługiwanych parametrów?
 
-Poprzez dodawanie nowych warunków sprawdzających i dopisywanie nowych parametrów ( else if (!strcmp(paramStr, "sprawdzenieLED")) { if (digitalRead(LED_BUILTIN) == HIGH) Serial.println("wlaczony LED") )
+Poprzez dodawanie nowych warunków sprawdzających i dopisywanie nowych parametrów ( else if (!strcmp(paramStr, "sprawdzenieLED")) { if (digitalRead(LED_BUILTIN) == HIGH) Serial.println("wlaczony LED") ).
