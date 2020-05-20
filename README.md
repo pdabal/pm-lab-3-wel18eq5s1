@@ -19,3 +19,6 @@ Program działa w taki sposób, iż gdy naciśniemy raz przycisk, wtedy program 
 
 W jaki sposób można rozbudować funkcjonalność programu w przypadku gdy liczba naciśnięć przycisku przekroczy określoną ilość?
 Można dodać  granicę licznika "liczba_naciśnięć", która będzie działać w taki sposób, iż po przekroczeniu określonej wartości uruchomi diodę LED, która będzie sygnalizowała na płytce przerwanie liczenia.
+
+W jaki sposob można zwiększyć liczbę obsługiwanych poleceń i paramatrów?
+Należy
