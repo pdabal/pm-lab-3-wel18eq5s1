@@ -8,7 +8,7 @@ Data: 20.05.2020 r.
 
 # Informacje o studencie
 
-Imię i nazwisko studenta: Szymon Witkowski  
+Imię i nazwisko studenta: Szymon Witkowski
 Numer albumu: 72040  
 Grupa studencka: WEL18EQ5S1
 
