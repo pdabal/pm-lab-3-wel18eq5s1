@@ -21,4 +21,4 @@ odp do zadania 3.2.2b:
     By zwiększć ilość moliwych zliczeń licznika umieszczonego w pętli należy zmienić zmienną odpowiedzialną za przechowywanie ilości zliczeń na większą np. na "unsigned long long", która umożliwia przechowowyanie większych liczb. 
 
 odp do zadania 3.2.3:
-    należy dodać koleny warunek else if posiadający wymagane przez nas polecenie 
+    należy dodać koleny warunek else if posiadający wymagane przez nas polecenie.
