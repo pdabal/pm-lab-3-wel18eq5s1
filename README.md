@@ -20,3 +20,5 @@ W przypadku jednego wciśnięcia zliczany jest jeden impuls, w przypadku przytrz
 W jaki sposób można rozbudować funkcjonalność programu w przypadku gdy liczba naciśnięć przycisku przekroczy określoną ilość?
 Należy dodać polecenie warunkowe (np. if), które w przypadku przekroczenia ilości naciśnięć przycisku wykona określoną przez nas instrukcję. Może to być np. polecenie ustawiające wartość licznika spowrotem na 0, lub przerywające pętlę liczącą i zamiast tego wyświetlającą komunikat o przekroczeniu dopuszczalnych przyciśnięć.
 
+W jaki sposób można zwiększyć liczbę obsługiwanych poleceń oraz liczbę obsługiwanych parametrów?
+Należy dodać więcej poleceń czułych na polecenia wpisywane w konsolę PC oraz przypisać im odpowiednie do wykonania instrukcje.
