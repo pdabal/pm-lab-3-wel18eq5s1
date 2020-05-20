@@ -26,4 +26,4 @@ Można dodać zmienną która będzie zerowała pierwszą zmienną, jeśli ta pr
 Pytanie 3.
 W jaki sposób można zwiększyć liczbę obsługiwanych poleceń oraz liczbe obsługiwanych parametrów?
 
-Poprzez dodanie ich do kodu, opisanie ich działania w danym przypadku.
+Poprzez dodanie ich do kodu, opisanie ich działania w danym przypadku. Można również dodać polecenie po którym następi informacja od stanie diody LED czy jest włączona bądź wyłączona.
