@@ -13,4 +13,6 @@ Numer albumu: 12345
 Grupa studencka: WELE18Q5S1
 
 # Odpowiedzi do pytań z instrukcji
-...
+odp do zadania 3.2.2:
+    Po wciśnięciu przycisku, w monitorze portu szeregowego, otrzymujemy więcej niż jedna informację dotyczącą wciśnięcia przycisku
+    (po wciśnięciu przycisku przes 3 sekundy otrzymujemy ich całą masę). Spowodowane jest to tym, iż po wciśnięciu przycisku, pętla odpowiedialna za zliczanie i wysłanie informacji wykonuje się wiecej niż jeden raz ponieważ nie posiada ograniczenia np. w postaci funkci delay() (wykoanie pętli trwa znacznie krócej niż czas wciśnięcia przycisku).
