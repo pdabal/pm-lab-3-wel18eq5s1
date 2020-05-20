@@ -19,3 +19,13 @@ W momencie wciśnięcia przycisku na porcie szeregowym otrzymujemy więcej niż 
 
 Odpowiedź do zadania 3.2.2.b:
 Możemy zwiększyć ilość baitów przez zastosowanie zmiennej long long.
+
+
+Odpowiedź do zadania 3.2.3:
+Należy dodać kolejną instrukcję if.
+if(digitalRead(LED_BUILTIN, HIGH)){
+  Serial.println("Dioda jet wlaczona");
+} else
+{
+  Serial.println("Dioda jest wylaczona");
+}
