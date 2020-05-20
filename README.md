@@ -20,3 +20,16 @@ Po kliknięciu przycisku raz, program zlicza jakby kliknęło się przycisk 3 al
 Zadanie 3.2.2b
 Odpowiedź:
 Gdy liczba naciśnięć przekroczy określoną ilość, można dodać funkcję, która będzie kasowała ilość naciśnięć i dodać zmienną, która będzie zliczała ilość osiągniętych określonych ilości naciśnięć(np. gdy będzie 100 naciśnięć to liczba_nacisniec się zeruje, a na dodatkowej zmiennej będą zliczane pełne setki).
+
+Zadanie 3.2.3
+Odpowiedź:
+Należy dodać kolejną fukncje sprawdzającą np.:
+
+else if (!strcmp(paramStr, "jaka")){
+        if(digitalRead(LED_BUILTIN == HIGH)){
+          Serial.println("Dioda jet wlaczona");
+        } else if (digitalRead(LED_BUILTIN == LOW))
+        {
+          Serial.println("Dioda jest wylaczona");
+        }
+}
