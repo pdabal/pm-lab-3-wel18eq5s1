@@ -6,7 +6,7 @@
 #define POWER_CTL_REG 0x2D
 #define DATA_FORMAT_REG 0x31
 
-int16_t aX = 0, aY = 0, aZ = 0;
+int16_t aX = 0, aY = 0, aZ = 0; 
 double dX = 0, dY = 0, dZ = 0;
 
 void setup() {
