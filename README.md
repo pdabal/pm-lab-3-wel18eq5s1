@@ -14,3 +14,4 @@ Grupa studencka: WELE18Q5S1
 
 # Odpowiedzi do pytań z instrukcji
 ...
+Z powodu braku ograniczeń czasowych wcisnięcie przycisku powoduje wielokrotne zliczenie wykonania programu.
