@@ -16,3 +16,6 @@ Grupa studencka: WELE18Q5S1
 odp do zadania 3.2.2:
     Po wciśnięciu przycisku, w monitorze portu szeregowego, otrzymujemy więcej niż jedna informację dotyczącą wciśnięcia przycisku
     (po wciśnięciu przycisku przes 3 sekundy otrzymujemy ich całą masę). Spowodowane jest to tym, iż po wciśnięciu przycisku, pętla odpowiedialna za zliczanie i wysłanie informacji wykonuje się wiecej niż jeden raz ponieważ nie posiada ograniczenia np. w postaci funkci delay() (wykoanie pętli trwa znacznie krócej niż czas wciśnięcia przycisku).
+
+odp do zadania 3.2.2b:
+By zwiększć ilość moliwych zliczeń licznika umieszczonego w pętli należy zmienić zmienną odpowiedzialną za przechowywanie ilości zliczeń na większą np. na "unsigned long long", która umożliwia przechowowyanie większych liczb. 
