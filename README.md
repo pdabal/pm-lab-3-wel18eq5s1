@@ -18,3 +18,6 @@ Grupa studencka: WELE18Q5S1
     Przy pojedynczym wciśnięciu przycisku otrzymujemy 4 wiersze, czyli tak jakby przycisk wciśnięty był 4 razy. Przy przytrzymaniu przycisku cały czas otrzymujemy wiersze wciśnięciu przycisku a po jego puszczeniu otrzymujemy jeszcze 3 wiersze wciśnięcia przycisku. Dzieje się tak ponieważ przy wciśnięciu przycisku pętla w kodzie wykonuje się wielokrotnie, ze względu na czas trwania wciśnięcia przycisku a czas trwania pojedynczej operacji mikrokontrolera. 
 3.2.2b) W jaki sposób można rozbudować funkcjonalność programu w przypadku gdy liczba naciśnięć przycisku przekroczy określoną ilość?
     Możemy zastąpić unsigned int zmienną unsigned long long co zwiększy nam ilość baitów a co za tym idzie zakres liczbowy. Możemy również dodać zmienną która będzie zliczała ilość resetów, czyli ile razy przekrocziliśmy zakres wartośći dla danego typu zmiennej.
+3.2.3 W jaki sposób można zwiększyć liczbę obsługiwanych poleceń oraz liczbę obsługiwanych parametrów? Należy dodać polecenie po wywołaniu którego nastapi informacja czy dioda jest włączona. 
+    Należy dodać zmienną (parametr) która zapamięta  stan diody i bedzie go wyświetlać przy wywołaniu. 
+    
