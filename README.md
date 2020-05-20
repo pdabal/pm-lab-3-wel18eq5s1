@@ -33,3 +33,5 @@ else if (!strcmp(paramStr, "jaka")){
           Serial.println("Dioda jest wylaczona");
         }
 }
+
+.
