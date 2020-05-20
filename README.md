@@ -8,8 +8,8 @@ Data: 20.05.2020 r.
 
 # Informacje o studencie
 
-Imię i nazwisko studenta: Imię Nazwisko  
-Numer albumu: 12345  
+Imię i nazwisko studenta: Mateusz Klekota
+Numer albumu: 69094  
 Grupa studencka: WELE18Q5S1
 
 # Odpowiedzi do pytań z instrukcji
