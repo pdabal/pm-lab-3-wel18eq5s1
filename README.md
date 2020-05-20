@@ -21,3 +21,8 @@ W momencie nacisnięcia przycisku odrazu zlicza 3 nacisnięcia przycisku. Jeżel
 W jaki sposób można rozbudować funkcjonalność programu w przypadku gdy liczba naciśnięć przycisku przekroczy określoną ilość?
 
 Możemy zastąpić unsigned int zmienną unsigned long long co zwiększy nam ilość baitów, a co za tym idzie zakres liczbowy. Można wpisać warunek w void loop() dotyczący liczby nacisnięć.
+
+
+W jaki sposób można zwiększyć liczbę obsługiwanych poleceń oraz liczbę obsługiwanych parametrów?
+
+Poprzez dodawanie nowych warunków sprawdzających i dopisywanie nowych parametrów ( else if (!strcmp(paramStr, "sprawdzenieLED")) { if (digitalRead(LED_BUILTIN) == HIGH) Serial.println("wlaczony LED") )
