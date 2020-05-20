@@ -18,4 +18,7 @@ odp do zadania 3.2.2:
     (po wciśnięciu przycisku przes 3 sekundy otrzymujemy ich całą masę). Spowodowane jest to tym, iż po wciśnięciu przycisku, pętla odpowiedialna za zliczanie i wysłanie informacji wykonuje się wiecej niż jeden raz ponieważ nie posiada ograniczenia np. w postaci funkci delay() (wykoanie pętli trwa znacznie krócej niż czas wciśnięcia przycisku).
 
 odp do zadania 3.2.2b:
-By zwiększć ilość moliwych zliczeń licznika umieszczonego w pętli należy zmienić zmienną odpowiedzialną za przechowywanie ilości zliczeń na większą np. na "unsigned long long", która umożliwia przechowowyanie większych liczb. 
+    By zwiększć ilość moliwych zliczeń licznika umieszczonego w pętli należy zmienić zmienną odpowiedzialną za przechowywanie ilości zliczeń na większą np. na "unsigned long long", która umożliwia przechowowyanie większych liczb. 
+
+odp do zadania 3.2.3:
+    
