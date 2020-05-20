@@ -8,9 +8,10 @@ Data: 20.05.2020 r.
 
 # Informacje o studencie
 
-Imię i nazwisko studenta: Imię Nazwisko  
-Numer albumu: 12345  
-Grupa studencka: WELE18Q5S1
+Imię i nazwisko studenta: Bartosz Chechłacz  
+Numer albumu: 71969  
+Grupa studencka: WEL18EQ5S1
 
 # Odpowiedzi do pytań z instrukcji
-...
+Odpowiedź do zadania 3.2.2:
+W momencie wciśnięcia przycisku na porcie szeregowym otrzymujemy więcej niż jedną informację, ponieważ pętla odpowiedzilna za zliczanie wykonuje się więcej ni jeden raz i nie posiada ograniczenia funkcją delay(). Gdy przycisk przytrzymamy 3 sekundy otrzymujemy znacznie więcej informacji o wciśnięciu przycisku.
