@@ -16,3 +16,7 @@ Grupa studencka: WEL18EQ5S1
 
 Co się dzieje w momencie jednego kliknięcia przycisku, oraz w momencie trzymania przycisku (np. przez 3 sekundy)?. Dlaczego wynik jest nieco inny od spodziewanego?
 W przypadku jednego wciśnięcia zliczany jest jeden impuls, w przypadku przytrzymania przycisku program odświeża się w tym czasie kilkukrotnie. W wyniku tego impuls z przycisku naliczony jest wielokrotnie zamiast jednego długiego.
+
+W jaki sposób można rozbudować funkcjonalność programu w przypadku gdy liczba naciśnięć przycisku przekroczy określoną ilość?
+Należy dodać polecenie warunkowe (np. if), które w przypadku przekroczenia ilości naciśnięć przycisku wykona określoną przez nas instrukcję. Może to być np. polecenie ustawiające wartość licznika spowrotem na 0, lub przerywające pętlę liczącą i zamiast tego wyświetlającą komunikat o przekroczeniu dopuszczalnych przyciśnięć.
+
