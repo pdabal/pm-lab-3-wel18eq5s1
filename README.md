@@ -23,7 +23,8 @@ Grupa studencka: WELE18Q5S1
     if(digitalRead(LED_BUILTIN == HIGH)){
         Serial.println("Dioda wlaczona");
     }
-    else if(digitalRead(LED_BUILTIN == 0)){
+    else if(digitalRead(LED_BUILTIN == 0)){ 
         Serial.println("Dioda wylaczona");
     }
+    .
     
