@@ -1,6 +1,9 @@
 #include <Arduino.h>
 #define BUTTON 2
-uint16_t liczba_nacisniec = 0;
+int stanPrzycisku;
+int poprzedniStanPrzycisku = LOW;
+unsigned long poprzedniCzas = 0;
+unsigned int liczba_nacisniec = 0;
 void setup() {
   Serial.begin(9600);
   pinMode(BUTTON, INPUT);
@@ -8,13 +11,28 @@ void setup() {
   }
 
 void loop() {
-  if (digitalRead(BUTTON))
+  int odczyt = digitalRead(BUTTON);
+
+  if (odczyt != poprzedniStanPrzycisku)
   {
-    Serial.print("Liczba nacisniec przycisku: ");
-    Serial.println(++liczba_nacisniec);
-    
+    poprzedniCzas = millis();
   }
 
+  if ((millis()- poprzedniCzas) > 50)
+  {
+    if (odczyt != stanPrzycisku)
+    {
+      stanPrzycisku = odczyt;
+      if (stanPrzycisku == HIGH)
+      {
+        liczba_nacisniec++;
+
+        Serial.print("Liczba nacisniec przycisku: ");
+        Serial.println(liczba_nacisniec);
+      }
+    }
+  }
+  poprzedniStanPrzycisku = odczyt;
 }
 
   

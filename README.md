@@ -14,3 +14,4 @@ Grupa studencka: WELE18Q5S1
 
 # Odpowiedzi do pytań z instrukcji
 Odpowiedz na pytanie z zadania 3.2.2 - podczas jednorazowego kliknięci układ nalicza 3 kliknięcia a trzymając przycisk przez 3 sekundy zostaje naliczone 7 kliknięć. Jes to spowodowane szybkością pracy układu i zanim zdężymy odcisnąć przycisk uklad sprawdza już kolejne instrukcje warunkowe if.
+3.2.2 B - Gdy liczba naciśnięć przekroczy dopuszczalną ilość można dodać funkcje kasującą ilość naciśnięć oraz zmienną zliczającą naciśnięcia i przy pewnej wartości uruchamiającą funkcję kasowania.
