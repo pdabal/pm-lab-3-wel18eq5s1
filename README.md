@@ -20,4 +20,10 @@ Grupa studencka: WELE18Q5S1
     Możemy zastąpić unsigned int zmienną unsigned long long co zwiększy nam ilość baitów a co za tym idzie zakres liczbowy. Możemy również dodać zmienną która będzie zliczała ilość resetów, czyli ile razy przekrocziliśmy zakres wartośći dla danego typu zmiennej.
 3.2.3 W jaki sposób można zwiększyć liczbę obsługiwanych poleceń oraz liczbę obsługiwanych parametrów? Należy dodać polecenie po wywołaniu którego nastapi informacja czy dioda jest włączona. 
     Należy dodać zmienną (parametr) która zapamięta  stan diody i bedzie go wyświetlać przy wywołaniu. 
+    if(digitalRead(LED_BUILTIN, HIGH)){
+        Serial.println("Dioda wlaczona");
+    }
+    else if(digitalRead(LED_BUILTIN)){
+        Serial.println("Dioda wylaczona");
+    }
     
